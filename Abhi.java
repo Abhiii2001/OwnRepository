@@ -9,7 +9,7 @@ String add = "pimpalegaon";
 
 public void Display()
 {
-System.out.println("ABHUSHSSCvhsgfhifash");
+System.out.println("ABHI");
 }
 
 public static void main(String[] args)
