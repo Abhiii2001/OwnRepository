@@ -1,7 +1,7 @@
 class Abhi{
 
 
-
+int f = 90;
 
 int no = 56;
 String value = "abhishek";
@@ -20,6 +20,7 @@ n.Main();
 System.out.println(n.value);
 System.out.println(n.add);
 System.out.println(n.no);
+System.out.println(n.f);
 System.out.println("Abhi");
 
 n.Display();
