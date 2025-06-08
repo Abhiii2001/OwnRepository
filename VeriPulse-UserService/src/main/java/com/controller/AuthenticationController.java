@@ -33,7 +33,7 @@ public class AuthenticationController {
 			@ApiResponse(responseCode = "400", description = "Bad Request User not saved") })
 	@PostMapping("/signUp")
 	public ResponseEntity<?> signUp(@Valid @RequestBody RegisterRequest register) {
-
+		log.debug("User Authentication Started with register request " + register);
 		return new ResponseEntity(authService.RegisterUser(register), HttpStatus.OK);
 	}
 
